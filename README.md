@@ -67,11 +67,12 @@ However I used the InfluxDB v1.x add-on from [Franck Nijhof][frenck] for some in
 For a full list of all authors and contributors,
 check [the contributor's page][contributors].
 
-## We have got some Home Assistant add-ons for you
+## Want more Add-ons?
 
-Want some more functionality to your Home Assistant instance?
+Expand your Home Assistant instance with more apps, features, and widgits!
 
-Check out the Home Assistant Community Add-on [GitHub Repository][repositoryCommunity] or for more add-on's as I write them, get them out [here][repositoryMe].
+As I write more Add-on's, you can find them [here][repositoryMe]. \
+Otherwise, check out the external [Home Assistant Community Add-on GitHub Repository][repositoryCommunity]
 
 ## License
 
