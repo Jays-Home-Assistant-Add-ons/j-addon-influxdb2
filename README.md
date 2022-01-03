@@ -1,6 +1,7 @@
 # Jay's Home Assistant Add-ons: InfluxDB2
 
 ![HA Ingress Support][ingressSupport]
+![Local Build][influxdb2-local-build]
 
 [![GitHub Release][releases-shield]][releases]
 ![Project Stage][project-stage-shield]
@@ -99,6 +100,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
+[influxdb2-local-build]: https://img.shields.io/badge/Home%20Assistant%20--%20local%20build-YES-orange.svg
 [releases]: https://github.com/Jays-Home-Assistant-Add-ons/j-addon-influxdb2/releases
 [releases-shield]: https://img.shields.io/github/release/Jays-Home-Assistant-Add-ons/j-addon-influxdb2.svg
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
