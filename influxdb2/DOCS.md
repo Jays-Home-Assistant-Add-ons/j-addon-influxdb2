@@ -193,7 +193,7 @@ Full details of the Home Assistant integration can be found here:
 
 ## Known issues and limitations
 
-- Nill
+- InfluxDB2 only supports x64 architecture
 
 
 ## Changelog & Releases
