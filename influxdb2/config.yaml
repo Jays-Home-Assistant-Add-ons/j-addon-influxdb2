@@ -1,6 +1,6 @@
 ---
 name: InfluxDB2
-version: 1.0.0
+version: 1.0.1
 slug: influxdb2
 description: Scalable datastore for metrics, events, and real-time analytics. Running InfluxDB v2.x.
 url: https://github.com/Jays-Home-Assistant-Add-ons/j-addon-influxdb2
@@ -11,8 +11,6 @@ hassio_api: true
 arch:
   - aarch64
   - amd64
-  - armv7
-  - i386
 init: false
 map:
   - share:rw

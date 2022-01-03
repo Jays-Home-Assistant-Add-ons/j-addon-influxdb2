@@ -1,19 +1,20 @@
 # Jay's Home Assistant Add-ons: InfluxDB2
 
-![HA Ingress Support][ingressSupport]
+![HA Ingress Support][influxdb2-ingressSupport]
+![Local Build][influxdb2-local-build]
 
-[![GitHub Release][releases-shield]][releases]
-![Project Stage][project-stage-shield]
-[![License][license-shield]](LICENSE.md)
+[![GitHub Release][influxdb2-releases-shield]][releases]
+![Project Stage][influxdb2-project-stage-shield]
+[![License][influxdb2-license-shield]](LICENSE.md)
 
-![Supports aarch64 Architecture][aarch64-shield]
-![Supports amd64 Architecture][amd64-shield]
-![Supports armhf Architecture][armhf-shield]
-![Supports armv7 Architecture][armv7-shield]
-![Supports i386 Architecture][i386-shield]
+![Supports amd64 Architecture][influxdb2-amd64-shield]
+![Supports aarch64 Architecture][influxdb2-aarch64-shield]
+![Supports armhf Architecture][influxdb2-armhf-shield]
+![Supports armv7 Architecture][influxdb2-armv7-shield]
+![Supports i386 Architecture][influxdb2-i386-shield]
 
-![Project Maintenance][maintenance-shield]
-[![GitHub Activity][commits-shield]][commits]
+![Project Maintenance][influxdb2-maintenance-shield]
+[![GitHub Activity][influxdb2-commits-shield]][commits]
 
 
 Scalable datastore for metrics, events, and real-time analytics.
@@ -99,26 +100,27 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
+[influxdb2-local-build]: https://img.shields.io/badge/Home%20Assistant%20--%20local%20build-YES-orange.svg
 [releases]: https://github.com/Jays-Home-Assistant-Add-ons/j-addon-influxdb2/releases
-[releases-shield]: https://img.shields.io/github/release/Jays-Home-Assistant-Add-ons/j-addon-influxdb2.svg
-[aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[commits-shield]: https://img.shields.io/github/commit-activity/y/Jays-Home-Assistant-Add-ons/j-addon-influxdb2.svg
+[influxdb2-releases-shield]: https://img.shields.io/github/release/Jays-Home-Assistant-Add-ons/j-addon-influxdb2.svg
+[influxdb2-aarch64-shield]: https://img.shields.io/badge/aarch64-untested-orange.svg
+[influxdb2-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[influxdb2-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[influxdb2-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[influxdb2-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[influxdb2-commits-shield]: https://img.shields.io/github/commit-activity/y/Jays-Home-Assistant-Add-ons/j-addon-influxdb2.svg
 [commits]: https://github.com/Jays-Home-Assistant-Add-ons/j-addon-influxdb2/commits/main
 [contributors]: https://github.com/Jays-Home-Assistant-Add-ons/j-addon-influxdb2/graphs/contributors
 [docs]: https://github.com/Jays-Home-Assistant-Add-ons/j-addon-influxdb2/blob/main/influxdb2/DOCS.md
 [frenck]: https://github.com/frenck
 [jantoney]: https://github.com/jantoney
 [issue]: https://github.com/Jays-Home-Assistant-Add-ons/j-addon-influxdb2/issues
-[license-shield]: https://img.shields.io/github/license/Jays-Home-Assistant-Add-ons/j-addon-influxdb2.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
-[project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
+[influxdb2-license-shield]: https://img.shields.io/github/license/Jays-Home-Assistant-Add-ons/j-addon-influxdb2.svg
+[influxdb2-maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
+[influxdb2-project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [reddit]: https://reddit.com/r/homeassistant
 [repositoryMe]: https://github.com/Jays-Home-Assistant-Add-ons/repository
 [Influxdbv1]: https://github.com/hassio-addons/addon-influxdb
 [githubDiscussions]: https://github.com/hassio-addons/addon-influxdb/discussions
 [repositoryCommunity]: https://github.com/hassio-addons/repository
-[ingressSupport]: https://img.shields.io/badge/Home%20Assistant%20--%20ingress%20support-NO-red
+[influxdb2-ingressSupport]: https://img.shields.io/badge/Home%20Assistant%20--%20ingress%20support-NO-red
