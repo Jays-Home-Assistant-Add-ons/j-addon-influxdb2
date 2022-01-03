@@ -1,6 +1,6 @@
 # Jay's Home Assistant Add-ons: InfluxDB2
 
-![HA Ingress Support][ingressSupport]
+![HA Ingress Support][influxdb2-ingressSupport]
 ![Local Build][influxdb2-local-build]
 
 [![GitHub Release][releases-shield]][releases]
@@ -123,4 +123,4 @@ SOFTWARE.
 [Influxdbv1]: https://github.com/hassio-addons/addon-influxdb
 [githubDiscussions]: https://github.com/hassio-addons/addon-influxdb/discussions
 [repositoryCommunity]: https://github.com/hassio-addons/repository
-[ingressSupport]: https://img.shields.io/badge/Home%20Assistant%20--%20ingress%20support-NO-red
+[influxdb2-ingressSupport]: https://img.shields.io/badge/Home%20Assistant%20--%20ingress%20support-NO-red
