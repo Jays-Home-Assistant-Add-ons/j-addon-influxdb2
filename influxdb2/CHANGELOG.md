@@ -1,4 +1,4 @@
-2## What’s changed - Release v1.0.2
+## What’s changed - Release v1.0.2
 
 ## 🚀 Enhancements
 
