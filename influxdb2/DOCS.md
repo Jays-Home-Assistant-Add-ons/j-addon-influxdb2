@@ -147,7 +147,7 @@ You need to do the following steps in order to get this working:
 - On the left menu click on InfluxDB icon at the top.
 - Navigate to **Load Data** > **API Tokens** > **+ Generate API Token** >> **Read/Write API Token**
 - Set the decription to **Home Assistant InfluxDB Intergration API Token**
-- Select the **home_assistant** bucket for both Read & Write
+- Select the **home_assistant** bucket for both **Read** & **Write**  << IMPORTANT!!
 - Click **Save**
 - Click on the name of the newly created token
 - Click **Copy to Clipboard** ->> This will be required in the yaml below
@@ -156,7 +156,7 @@ Now we need to get your organisation ID
 - Looking at the URL in your browser, the organisation ID is the 16 digit text between the two slashs just to the right of the **orgs** text
 - **fc08dc2f07e50755** is the organization you'll need to use in the yaml configuration based on this URL: http://homeassistant.local:8086/orgs/fc08dc2f07e50755/load-data/tokens
 
-Now we've got this in place, add the following snippet to your Home Assistant
+Next, add the following snippet to your Home Assistant
 `configuration.yaml` file.
 
 ```yaml
