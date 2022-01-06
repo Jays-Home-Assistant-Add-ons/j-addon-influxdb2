@@ -21,7 +21,7 @@ ports_description:
   8086/tcp: InfluxDB server
 options:
   reporting: true
-  ssl: true
+  ssl: false
   certfile: fullchain.pem
   keyfile: privkey.pem
   envvars: []
