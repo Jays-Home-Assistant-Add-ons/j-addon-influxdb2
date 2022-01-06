@@ -29,7 +29,7 @@ often used in combination with Grafana to visualize the data.
 This add-on is built on the InfluxDB v2.x build. \
 If you're after the InfluxDB V1.x build - check out this other add-on [Here][Influxdbv1]
 
-[:books: Read the full add-on documentation][docs]
+[Read the full add-on documentation][docs]
 
 ## FAQ
 - Why make another add-on and why not just upgrade the current [InfluxDB v1.x Community Add-on][Influxdbv1]?
