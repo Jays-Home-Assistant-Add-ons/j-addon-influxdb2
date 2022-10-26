@@ -2,7 +2,7 @@
 
 ## 🚀 Enhancements
 
-- Upgrade to influx 2.6.0
+- Upgrade to influx 2.4.0
 - upgrade base to 6.1.2
 - add CLI
 
