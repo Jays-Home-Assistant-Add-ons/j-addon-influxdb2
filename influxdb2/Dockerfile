@@ -8,6 +8,9 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 # Setup base system
 ARG BUILD_ARCH=amd64
 
+# Copy root filesystem
+COPY rootfs /
+
 RUN \
     export DEBIAN_FRONTEND=noninteractive \
     && apt update \
@@ -25,11 +28,9 @@ RUN \
         /var/{cache,log}/* \
         /var/lib/apt/lists/* \
     \
-    && mkdir -p /data/influxdb2/engine
+    && mkdir -p /data/influxdb2/engine \
+    && chmod +x /etc/cont-init.d/influxdb.sh
 
-
-# Copy root filesystem
-COPY rootfs /
 
 # Build arguments
 ARG BUILD_ARCH
