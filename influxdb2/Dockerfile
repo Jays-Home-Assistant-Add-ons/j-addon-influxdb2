@@ -31,7 +31,7 @@ RUN \
     && mkdir -p /data/influxdb2/engine \
     && chmod +x /etc/cont-init.d/influxdb.sh \
     && chmod +x /etc/services.d/influxdb/run \
-    && chmod +x /etc/services.d/influxdb/finish \
+    && chmod +x /etc/services.d/influxdb/finish
 
 
 # Build arguments
