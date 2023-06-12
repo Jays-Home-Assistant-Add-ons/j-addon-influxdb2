@@ -1,9 +1,9 @@
 ---
 name: InfluxDB2
-version: 1.1.0
+version: 2.7.0-alpha.1
 slug: influxdb2
 description: Scalable datastore for metrics, events, and real-time analytics. Running InfluxDB v2.x.
-url: https://github.com/Jays-Home-Assistant-Add-ons/j-addon-influxdb2
+url: https://github.com/caraar12345/ha-addon-influxdb2
 panel_icon: mdi:chart-areaspline
 startup: services
 homeassistant: 0.92.0b2
@@ -18,7 +18,7 @@ map:
 ports:
   8086/tcp: 8086
 ports_description:
-  8086/tcp: InfluxDB server
+  8086/tcp: InfluxDB
 options:
   reporting: true
   ssl: false

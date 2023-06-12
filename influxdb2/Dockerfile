@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/debian-base/amd64:6.1.2
+ARG BUILD_FROM=ghcr.io/hassio-addons/debian-base/amd64:6.2.7
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -9,11 +9,12 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 ARG BUILD_ARCH=amd64
 
 RUN \
-    apt-get update \
+    export DEBIAN_FRONTEND=noninteractive \
+    && apt update \
     && ARCH="${BUILD_ARCH}" \
     && if [ "${BUILD_ARCH}" = "aarch64" ]; then ARCH="arm64"; fi \
     \
-    && INFLUXDB="2.4.0" \
+    && INFLUXDB="2.7.0" \
     && curl -J -L -o /tmp/influxdb2.deb \
         "https://dl.influxdata.com/influxdb/releases/influxdb2-${INFLUXDB}-${ARCH}.deb" \
     \
@@ -46,13 +47,13 @@ LABEL \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
-    maintainer="Jay Antoney <jayantoney@gmail.com>" \
+    maintainer="Aaron Carson <aaron@aaroncarson.co.uk>" \
     org.opencontainers.image.title="${BUILD_NAME}" \
     org.opencontainers.image.description="${BUILD_DESCRIPTION}" \
-    org.opencontainers.image.vendor="Jays Home Assistant Add-ons" \
-    org.opencontainers.image.authors="Jay Antoney <jayantoney@gmail.com>" \
+    org.opencontainers.image.vendor="aaroncarson's Home Assistant addons" \
+    org.opencontainers.image.authors="Aaron Carson <aaron@aaroncarson.co.uk>" \
     org.opencontainers.image.licenses="MIT" \
-    org.opencontainers.image.url="https://github.com/Jays-Home-Assistant-Add-ons" \
+    org.opencontainers.image.url="https://github.com/caraar12345" \
     org.opencontainers.image.source="https://github.com/${BUILD_REPOSITORY}" \
     org.opencontainers.image.documentation="https://github.com/${BUILD_REPOSITORY}/blob/main/README.md" \
     org.opencontainers.image.created=${BUILD_DATE} \
